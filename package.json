@@ -1,0 +1,43 @@
+{
+  "name": "pnotes",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "pre": "pear-electron/pre",
+    "name": "pnotes",
+    "gui": {
+      "main": "ui/index.html",
+      "width": 960,
+      "height": 500,
+      "minWidth": 500,
+      "x": 960,
+      "y": 0
+    }
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "pear:dev": "pear run --dev .",
+    "tw:watch": "npx @tailwindcss/cli -i ./ui/css/styles.css -o ./ui/css/tailwind.css --watch",
+    "test": "brittle-node \"test/**/*.js\""
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "dependencies": {
+    "autopass": "^3.4.0",
+    "b4a": "^1.8.0",
+    "bare-http1": "^4.5.5",
+    "chokidar": "^5.0.0",
+    "hypercore-crypto": "^3.6.1",
+    "hyperswarm": "^4.17.0",
+    "lucide": "^1.0.0-rc.1",
+    "pear-bridge": "^1.2.0",
+    "pear-electron": "^1.7.10",
+    "pear-hotmods": "^1.0.4",
+    "pear-ipc": "^6.11.0",
+    "pear-pipe": "^1.0.6",
+    "pear-run": "^2.0.0"
+  }
+}
