@@ -4,10 +4,6 @@ Pear Demo for Technical Review
 
 ---
 
-Current seed link:
-
-- pear://n6pdf45rmhdpsx7tquxcymweinbkquhoh4qkood4wxdmquq4zguy
-
 Summary:
 
 - This simple demo implements the Autobase api to create a simple notes interaction.
