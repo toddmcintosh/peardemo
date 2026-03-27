@@ -18,13 +18,6 @@ Features:
 - per note delete button with confirmation
 - status bar footer which displays error messages when caught
 
-Incomplete:
-
-- pairing is mostly setup, but was finding challenges with testing with multiple instances locally. would value input from team to determine how to complete feature
-
-Notes:
-
-- I had intended to implement the UI with react, but ran into challenges setting up the backend api communication, so implemented with vanilla js to have a working demo to show.
 
 AI Usage:
 
